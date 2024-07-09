@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files 
+@import "primeng/resources/themes/lara-light-blue/theme.css";*/
+//@use "../public/assets/vendor/fonts/boxicons.css";
+@use "../public/assets/vendor/css/core.css";
+@use "../public/assets/vendor/css/theme-opti.css";
+@import "primeng/resources/themes/md-light-indigo/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
