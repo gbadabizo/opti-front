@@ -10,10 +10,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
-# run project
-
+# build project fom souce
 docker build -t angular-docker .
-
+# run project
 docker run -p 4201:4200 angular-docker
 
 # check
