@@ -37,3 +37,11 @@ jobs:
 
       - name: List Files in Distribution Directory
         run: ls -R ./dist
+      - name: Push Docker Image to Dockerhub Repo
+        uses: docker/build-push-action@v6
+        with:
+          image: gbadabizo/opti-tpdevops
+          registry: docker.io
+          username: ${{ secrets.DOC_USERNAME }}
+          password: ${{ secrets.DOC_PASSWORD }}
+          dockerfile: Dockerfile
