@@ -18,3 +18,5 @@ docker run -p 4201:4200 angular-docker
 # check
 
 http://localhost:4201/
+## le CI 
+Le ci envoie l'image docker sur dockerhub : https://hub.docker.com/repository/docker/gbadabizo/opti-tpdevops/general
