@@ -44,7 +44,7 @@ jobs:
         run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag gbadabizo/opti-tpdevops:$(date +%s)
+        run: docker build . --file Dockerfile --tag gbadabizo/opti-tpdevops:1.0
 
       - name: Docker Push
-        run: docker push gbadabizo/opti-tpdevops
+        run: docker push gbadabizo/opti-tpdevops:1.0
